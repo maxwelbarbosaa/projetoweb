@@ -1,4 +1,9 @@
 <?php
+
+echo "OLÁ, MUNDO!<br><br>"; # Exibe "OLÁ, MUNDO!"
+
+# O restante do código é de conexão e consulta ao banco de dados
+
 $servername = "mysql"; # Define o nome do servidor MySQL. No Docker Compose, pode ser o nome do serviço.
 
 # Obtendo o usuário, senha e nome do banco de dados MySQL a partir de variáveis de ambiente.
@@ -8,7 +13,7 @@ $dbname = getenv('MYSQL_DATABASE');
 
 
 # Exibe uma mensagem na página Web
-echo "Nomes buscados na tabela do banco: <br>";
+echo "Nomes buscados na tabela do banco: <br><br>";
 
 
 # Estabelece uma conexão PDO segura com o banco de dados MySQL
