@@ -7,8 +7,9 @@ $password = getenv('MYSQL_PASSWORD');
 $dbname = getenv('MYSQL_DATABASE');
 
 
-# Exibe uma mensagem de Hello World na página Web
-echo "Nomes buscados na tabela names: <br>";
+# Exibe uma mensagem na página Web
+echo "Nomes buscados na tabela do banco: <br>";
+
 
 # Estabelece uma conexão PDO segura com o banco de dados MySQL
 try {
