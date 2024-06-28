@@ -41,7 +41,7 @@ Contém a configuração personalizada do Nginx.
 ```bash
 nginx/nginx.conf
 ```
-Define a imagem base e as etapas para configurar o servidor PHP-FPM.
+Define a imagem base e as etapas para configurar o serviço PHP-FPM.
 
 ```bash
 php-fpm/Dockerfile
